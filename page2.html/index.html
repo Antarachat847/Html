@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card 1 Details</title>
+	<link rel="shortcut icon" type="image/icon" href="../images/fav-icon.png"/>
+<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+</head>
+<body>
+<nav class="sticky">
+  <ul>
+    <li><a class="about link">About</a></li>
+    <li>
+      <h1><a href="../index.html">Antara Chatterjee</a></h1>
+    </li>
+    <li><a class="connect link" >Connect</a></li>
+  </ul>
+</nav>
+<div class="connectlink">
+  <ul>
+	  <li style="margin-bottom: 30px;">If you enjoyed looking at my work and have any constructive feedback or critique or if you wish to coloaborate or just wanna say hi, I am more than happy to connect. You can find me:
+	  
+	  </li>
+	  <li><a href="mailto:chata416@newschool.edu"><i class="fa fa-envelope-o" aria-hidden="true"></i>Email</a></li>
+	  <li><a href="https://www.instagram.com/antara6420/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a></li>
+	  <li><a href="hhttps://www.linkedin.com/in/antara-chatterjee-66b333286/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin</a></li>
+    
+  </ul>
+</div>
+<div class="aboutlink">
+  <ul class="list">
+    <p>I’m a spirited Indian girl blending the vibrant colors of my roots with the dynamic energy of New York City. At Parsons School of Design, I draw inspiration from Indian textiles and contemporary design, weaving a story of cultural fusion and artistic expression. Here, I’m chasing dreams and painting my journey, one bold stroke at a time.</p>
+  </ul>
+</div>
+<main> <img src="image2/book.png" alt="Card 1 Image">
+  <div class="text-wrp">
+    <p> I had the privilege of collaborating with Cadbury on their Diwali packaging for their e-commerce platform,a creatively fulfilling and inspiring experience.</p>
+	  
+	  <p> The project celebrated togetherness, a cornerstone of Diwali, through a unique card game designed to foster family connections as well as custom box packaging which included a picture frame, goodie bag filled with choclates as well as a personalised message making this the perfect gift to celebrate this festival of lights and unity.
+</p>
+  </div>
+  <div class="gallery"> <img src="image2/phela.jpg" alt=""> <img src="image2/dusra.jpg" alt=""> </div>
+</main>
+<script>
+        const connect = document.querySelector('.connect');
+const connectlink = document.querySelector('.connectlink');
+
+// Toggle the visibility of the connectlink div on click
+connect.addEventListener('click', (event) => {
+  event.preventDefault();
+  connectlink.classList.toggle('active');
+});
+
+// Close the connectlink if the user clicks outside it
+document.addEventListener('click', (event) => {
+  if (!connectlink.contains(event.target) && !connect.contains(event.target)) {
+    connectlink.classList.remove('active');
+  }
+});
+
+const about = document.querySelector('.about');
+const aboutlink = document.querySelector('.aboutlink');
+
+// Toggle the visibility of the connectlink div on click
+about.addEventListener('click', (event) => {
+  event.preventDefault();
+  aboutlink.classList.toggle('active');
+});
+
+// Close the connectlink if the user clicks outside it
+document.addEventListener('click', (event) => {
+  if (!aboutlink.contains(event.target) && !about.contains(event.target)) {
+    aboutlink.classList.remove('active');
+  }
+});
+
+    </script>
+<footer class="next-projects">
+    <div class="project">
+        <a href="../page5.html/index.html"><img src="image2/PVR.png" alt="Project 3 Preview" class="project-image">
+         <p class="project-link">PVR Cinemas Packaging</p></a>
+    </div>
+    <div class="project">
+        <a href="../page7.html//index.html"><img src="image2/WEB DESIGN.png" alt="Project 3 Preview" class="project-image">
+         <p class="project-link">Folk art Website Deisgn</p></a>
+    </div>
+    <div class="project">
+        <a href="../page6.html/index.html"><img src="image2/Magazine.png" alt="Project 3 Preview" class="project-image">
+         <p class="project-link">Egyptian Hieroglyph Magazine</p></a>
+    </div>
+</footer>
+
+</body>
+</html>

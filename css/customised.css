@@ -1,0 +1,16 @@
+.navbar-brand {
+    float: left;
+    height: 72px;
+    padding: 5px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.modal-dialog{
+	margin-top: 110px!important;
+}
+.table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    
+	background: #00bbde!important;
+	color: #ffffff;
+}
