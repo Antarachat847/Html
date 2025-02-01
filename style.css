@@ -47,6 +47,7 @@ nav h1 {
   font-family: 'IM Fell English';
   letter-spacing: 12px;
   font-size: 20px !important;
+  padding-left: 80px;
 }
 nav h1 a {
   margin: 0px;
