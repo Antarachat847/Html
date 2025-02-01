@@ -1,6 +1,6 @@
 body {
-  background-color: rgba(235, 255, 107, 0.991);
-  color: rgb(3, 110, 12);
+  background-color: rgba(255, 255, 255, 0.991);
+  color: rgb(199, 3, 3);
   text-align: center; /* Center align text */
   font-family: 'IM Fell English', serif;
   margin: 0;
@@ -18,7 +18,7 @@ header {
   width: 95%;
   margin: 0 auto;
   z-index: 999999;
-  background-color: rgba(235, 255, 107, 0.991);
+  background-color: rgb(199, 3, 3);
 }
 nav {
   font-family: 'IM Fell English', serif;
@@ -47,7 +47,7 @@ nav li {
 nav a {
   font-size: 1.3rem;
   font-weight:bold;
-  color: rgb(3, 110, 12);
+  color: rgb(199, 3, 3);
   text-decoration: none; /* Remove underline */
   /* text-transform: uppercase; */
 }
@@ -59,8 +59,8 @@ nav a {
   right:-100%;
   height:94vh;
   top:6vh;
-  background-color: rgba(235, 255, 107, 0.991);
-  color:rgb(3, 110, 12);
+  background-color: rgba(255, 255, 255, 0.991);
+  color:rgb(199, 3, 3);
   z-index:1500;
   transition:right 1s ease;
   overflow-y: auto;
@@ -82,13 +82,13 @@ nav a {
 .connectlink ul li{
 	font-size: 1.3rem;
   font-weight: normal;
-  color: rgb(3, 110, 12);
+  color: rgb(199, 3, 3);
 	text-align: left
 }
 .connectlink ul li a{
 	font-size: 1.3rem;
   font-weight: normal;
-  color: rgb(3, 110, 12);
+  color: rgb(199, 3, 3);
 	text-decoration: none;
 	line-height: 30px;
 }
@@ -102,8 +102,8 @@ nav a {
   left:-100%;
   height:94vh;
   top:6vh;
-  background-color: rgba(235, 255, 107, 0.991);
-  color:rgb(3, 110, 12);
+  background-color: rgba(255, 255, 255, 0.991);
+  color:rgb(199, 3, 3);
   z-index:1500;
   transition:left 1s ease;
   overflow-y: auto;
@@ -114,7 +114,7 @@ nav a {
   padding:30px;
   font-size: 1.3rem;
   font-weight:normal;
-  color: rgb(3, 110, 12);
+  color: rgb(199, 3, 3);
   text-align: left;
   text-decoration: none; /* Remove underline */
   
@@ -122,7 +122,7 @@ nav a {
 
 .aboutlink p a{
 
-  color: rgb(3, 110, 12);
+  color: rgb(199, 3, 3);
   text-decoration: none; /* Remove underline */
 }
 
@@ -143,7 +143,7 @@ footer {
 }
 
 a {
-  color: rgb(3, 110, 12);
+  color: rgb(199, 3, 3);
   text-decoration: none;
   font-weight: bold;
 }
@@ -187,8 +187,8 @@ img {
       right:-100%;
       height:94vh;
       top:6vh;
-      background-color: rgba(235, 255, 107, 0.991);
-      color:rgb(3, 110, 12);
+      background-color: rgba(255, 255, 255, 0.991);
+      color:rgb(199, 3, 3);
       z-index:1500;
       transition:right 1s ease;
       overflow-y: auto;
@@ -199,7 +199,7 @@ img {
       padding:5vw;
       font-size: 1.2rem;
       font-weight:bold;
-      color: rgb(3, 110, 12);
+      color: rgb(199, 3, 3);
       text-decoration: none; /* Remove underline */
       
     }
@@ -210,8 +210,8 @@ img {
       left:-100%;
       height:94vh;
       top:6vh;
-      background-color: rgba(235, 255, 107, 0.991);
-      color:rgb(3, 110, 12);
+      background-color: rgba(255, 255, 255, 0.991);
+      color:rgb(199, 3, 3);
       z-index:1500;
       transition:left 1s ease;
       overflow-y: auto;
@@ -222,7 +222,7 @@ img {
       padding:5vw;
       font-size: 1.2rem;
       font-weight:bold;
-      color: rgb(3, 110, 12);
+      color: rgb(199, 3, 3);
       text-decoration: none; /* Remove underline */
       
     }
@@ -254,8 +254,8 @@ img {
       right:-100%;
       height:94vh;
       top:6vh;
-      background-color:rgba(235, 255, 107, 0.991);
-      color:rgb(3, 110, 12);
+      background-color:rgba(255, 255, 255, 0.991);
+      color:rgb(199, 3, 3);
       z-index:1500;
       transition:right 1s ease;
       overflow-y: auto;
@@ -266,7 +266,7 @@ img {
       padding:10vw;
       font-size: 1.2rem;
       font-weight:bold;
-      color: rgb(3, 110, 12);
+      color: rgb(199, 3, 3);
       text-decoration: none; /* Remove underline */
       
     }
@@ -277,8 +277,8 @@ img {
       left:-100%;
       height:94vh;
       top:6vh;
-      background-color: rgba(235, 255, 107, 0.991);
-      color:rgb(3, 110, 12);
+      background-color: rgba(255, 255, 255, 0.991);
+      color:rgb(199, 3, 3);
       z-index:1500;
       transition:left 1s ease;
       overflow-y: auto;
@@ -289,7 +289,7 @@ img {
       padding:10vw;
       font-size: 1.2rem;
       font-weight:bold;
-      color: rgb(3, 110, 12);
+      color: rgb(199, 3, 3);
       text-decoration: none; /* Remove underline */
       
     }
@@ -301,7 +301,7 @@ img {
       justify-content: space-between;
       /* gap: 20px; Space between the projects */
       padding: 50px;
-      background-color: rgba(235, 255, 107, 0.991);
+      background-color: rgba(255, 255, 255, 0.991);
   }
   
   .project {
@@ -315,13 +315,13 @@ img {
       height: auto; /* Maintain aspect ratio */
       margin-bottom: 10px; /* Space between image and button */
       border-radius: 5px; /* Optional: Add rounded corners */
-      border: 1px solid rgba(7, 115, 9, 0.602);
+      border: 1px solid rgba(199, 3, 3, 0.568);
   }
   
   .project-link {
       display: inline-block;
       font-size: 1rem;
-      color:rgb(3, 110, 12);
+      color:rgb(199, 3, 3);
       font-weight: bold;
       text-decoration: none;
       padding: 10px 15px;
@@ -360,7 +360,7 @@ img {
 	clear: both;
 }
 .link {
-  border: green solid 1px;
+  border:rgb(199, 3, 3);
   border-radius: 15px;
   padding: 5px 23px;
   text-decoration: none;
@@ -383,7 +383,7 @@ nav h1 a {
   letter-spacing: 12px;
   font-size: 1.8rem;
   font-weight: bold;
-  color: green;
+  color: rgb(199, 3, 3);
   text-decoration: none !important; /* Remove underline */
   /* text-transform: uppercase; */
 }
