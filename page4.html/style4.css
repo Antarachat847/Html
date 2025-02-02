@@ -336,6 +336,7 @@ img {
   margin: 0 auto;
   text-align: left;
   font-size: 16px;
+ padding-left: 45px;
 }
 
 .Grid-Img-Wrp {
@@ -361,7 +362,7 @@ img {
 	clear: both;
 }
 .link {
-  border: #ff0000 solid 1px;
+  border: rgb(232, 63, 21)solid 1px;
   border-radius: 15px;
   padding: 5px 23px;
   text-decoration: none;
@@ -384,7 +385,7 @@ nav h1 a {
   letter-spacing: 12px;
   font-size: 1.8rem;
   font-weight: bold;
-  color: #red;
+  color: rgb(232, 63, 21);
   text-decoration: none !important; /* Remove underline */
   /* text-transform: uppercase; */
 }
