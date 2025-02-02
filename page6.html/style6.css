@@ -385,4 +385,6 @@ nav h1 a {
   font-weight: bold;
   color:#ffffff;
   text-decoration: none !important; /* Remove underline */
-  /* text-transform:
+  /* text-transform: uppercase; */
+}
+    
